@@ -1,5 +1,5 @@
 <script>
-import { OLSKLocalized } from '../../_shared/common/global.js'
+import { OLSKLocalized } from '../_shared/common/global.js'
 
 import EditorMarkdown from './ModuleEditorMarkdown.svelte'
 import EditorHTML from './ModuleEditorHTML.svelte'
