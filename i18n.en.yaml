@@ -1,0 +1,6 @@
+RCSIdiomaticTitle: Idiomatic
+RCSIdiomaticDescription: 'Convert text between Markdown, HTML, and Rich Text.'
+RCSIdiomaticConvertToolbarButtonOptionMarkdownText: Markdown
+RCSIdiomaticConvertToolbarButtonOptionHTMLText: HTML
+RCSIdiomaticConvertToolbarButtonOptionRTFText: Rich Text
+RCSIdiomaticConvertOutputToolbarPreviewText: Preview

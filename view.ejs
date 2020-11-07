@@ -1,0 +1,39 @@
+<%
+locals.OLSKPageTitle = OLSKLocalized('RCSIdiomaticTitle');
+locals.OLSKPageDescription = OLSKLocalized('RCSIdiomaticDescription');
+locals.OLSKPageAssets = [
+	'/_shared/__external/OLSKRouting/main.js',
+	'/_shared/__external/normalize.css/normalize.css',
+	'/_shared/__external/turndown/dist/turndown.js',
+	'/_shared/__external/turndown-plugin-gfm/dist/turndown-plugin-gfm.js',
+	'/_shared/__external/showdown/dist/showdown.js',
+	'/_shared/__external/codemirror/lib/codemirror.js',
+	'/_shared/__external/codemirror/lib/codemirror.css',
+	'/_shared/__external/codemirror/mode/xml/xml.js',
+	'/_shared/__external/codemirror/mode/css/css.js',
+	'/_shared/__external/codemirror/mode/javascript/javascript.js',
+	'/_shared/__external/codemirror/mode/htmlmixed/htmlmixed.js',
+	'/_shared/__external/codemirror/addon/edit/continuelist.js',
+	'/_shared/__external/pell/dist/pell.js',
+	'/_shared/__external/pell/dist/pell.css',
+	'__compiled/ui-style.css',
+	'ui-logic.js',
+];
+locals.OLSKPagePublicRouteKeys = [
+	OLSKSharedActiveRouteConstant,
+	'RCSVitrineRoute',
+	'RCSServiceWorkerRoute',
+];
+locals.OLSKPagePublicConstants = {
+	OLSKSharedActiveRouteConstant,
+	OLSKSharedPageLanguagesAvailable,
+	OLSKSharedPageCurrentLanguage,
+	RCSIdiomaticConvertSourceSampleData,
+};
+%>
+
+<%- include('../../_shared/common/layout-header.ejs') %>
+
+<script src="/<%= OLSKSharedPageControllerSlug %>/__compiled/ui-behaviour.js"></script>
+
+<%- include('../../_shared/common/layout-footer.ejs') %>
