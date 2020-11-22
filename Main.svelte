@@ -3,7 +3,11 @@ import Header from './ModuleHeader.svelte'
 import PaneSource from './ModulePaneSource.svelte'
 import PaneOutput from './ModulePaneOutput.svelte'
 
-import { OLSKLocalized } from '../_shared/common/global.js'
+import { OLSKLocalized } from 'OLSKInternational';
+
+import OLSKString from 'OLSKString';
+export const OLSKFormatted = OLSKString.OLSKStringWithFormat;
+
 import OLSKServiceWorker from '../_shared/__external/OLSKServiceWorker/main.svelte';
 
 let outputData
