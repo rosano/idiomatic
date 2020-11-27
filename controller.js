@@ -6,7 +6,7 @@ exports.OLSKControllerRoutes = function () {
 			OLSKRoutePath: '/idiomatic',
 			OLSKRouteMethod: 'get',
 			OLSKRouteFunction (req, res, next) {
-				return res.render(require('path').join(__dirname, 'view'), {
+				return res.OLSKLayoutRender(require('path').join(__dirname, 'view'), {
 					RCSIdiomaticConvertSourceSampleData: require('fs').readFileSync(require('path').join(__dirname, `sample.${ res.locals.OLSKSharedPageCurrentLanguage }.md`), 'utf8')
 				});
 			},
