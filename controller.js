@@ -10,7 +10,7 @@ exports.OLSKControllerRoutes = function () {
 					RCSIdiomaticConvertSourceSampleData: require('fs').readFileSync(require('path').join(__dirname, `sample.${ res.locals.OLSKSharedPageCurrentLanguage }.md`), 'utf8')
 				});
 			},
-			OLSKRouteLanguages: ['en', 'fr', 'es'],
+			OLSKRouteLanguageCodes: ['en', 'fr', 'es'],
 		},
 	};
 };
