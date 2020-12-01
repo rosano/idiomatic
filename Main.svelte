@@ -6,7 +6,7 @@ import PaneOutput from './ModulePaneOutput.svelte'
 import { OLSKLocalized } from 'OLSKInternational';
 
 import OLSKString from 'OLSKString';
-export const OLSKFormatted = OLSKString.OLSKStringWithFormat;
+export const OLSKFormatted = OLSKString.OLSKStringFormatted;
 
 import OLSKServiceWorker from '../_shared/__external/OLSKServiceWorker/main.svelte';
 
