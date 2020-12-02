@@ -7,7 +7,7 @@ import OLSKLanguageSwitcher from 'OLSKLanguageSwitcher';
 
 <header class="Container">
 
-<RCWRootLink RCWRootLinkImageURL="/logo.standard.svg" />
+<RCWRootLink RCWRootLinkImageURL="/_shared/__external/ROCORootLink/identity-transparent.svg" />
 
 <h1>{ OLSKLocalized('RCSIdiomaticTitle') }</h1>
 
