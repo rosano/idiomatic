@@ -2,7 +2,7 @@
 import { OLSKLocalized } from 'OLSKInternational';
 
 import RCWRootLink from '../_shared/RCWRootLink/main.svelte';
-import OLSKLanguageSwitcher from '../_shared/OLSKLanguageSwitcher/main.svelte';
+import OLSKLanguageSwitcher from '../_shared/__external/OLSKLanguageSwitcher/main.svelte';
 </script>
 
 <header class="Container">
