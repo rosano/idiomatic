@@ -23,7 +23,7 @@ let outputData
 	<PaneOutput {outputData} />
 </div>
 
-<OLSKServiceWorker OLSKServiceWorkerRegistrationRoute={ window.OLSKCanonicalFor('RCSServiceWorkerRoute') } />
+<OLSKServiceWorker OLSKServiceWorkerRegistrationRoute={ window.OLSKCanonical('RCSServiceWorkerRoute') } />
 
 </div>
 
