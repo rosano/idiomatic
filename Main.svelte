@@ -8,7 +8,7 @@ import { OLSKLocalized } from 'OLSKInternational';
 import OLSKString from 'OLSKString';
 export const OLSKFormatted = OLSKString.OLSKStringFormatted;
 
-import OLSKServiceWorker from '../_shared/__external/OLSKServiceWorker/main.svelte';
+import OLSKServiceWorker from './node_modules/OLSKServiceWorker/main.svelte';
 
 let outputData
 </script>
@@ -23,7 +23,7 @@ let outputData
 	<PaneOutput {outputData} />
 </div>
 
-<OLSKServiceWorker OLSKServiceWorkerRegistrationRoute={ window.OLSKCanonical('RCSServiceWorkerRoute') } />
+<OLSKServiceWorker OLSKServiceWorkerRegistrationRoute={ window.OLSKCanonical('RCIServiceWorkerRoute') } />
 
 </div>
 

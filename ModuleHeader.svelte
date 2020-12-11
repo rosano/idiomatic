@@ -1,13 +1,13 @@
 <script>
 import { OLSKLocalized } from 'OLSKInternational';
 
-import RCWRootLink from '../_shared/RCWRootLink/main.svelte';
-import OLSKLanguageSwitcher from '../_shared/__external/OLSKLanguageSwitcher/main.svelte';
+import ROCORootLink from './node_modules/ROCORootLink/main.svelte';
+import OLSKLanguageSwitcher from './node_modules/OLSKLanguageSwitcher/main.svelte';
 </script>
 
 <header class="Container">
 
-<RCWRootLink RCWRootLinkImageURL="/_shared/__external/ROCORootLink/identity-transparent.svg" />
+<ROCORootLink />
 
 <h1>{ OLSKLocalized('RCSIdiomaticTitle') }</h1>
 
@@ -29,11 +29,11 @@ import OLSKLanguageSwitcher from '../_shared/__external/OLSKLanguageSwitcher/mai
 	align-items: center;
 }
 
-:global(.RCWRootLink) {
+:global(.ROCORootLink) {
 	color: inherit;
 }
 
-:global(.RCWRootLink img) {
+:global(.ROCORootLink img) {
 	width: 36px;
 }
 
