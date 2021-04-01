@@ -23,7 +23,7 @@
 		'OLSKString',
 		'OLSKRouting',
 		'OLSKServiceWorker',
-		'OLSKLayout',
+		'OLSKDecor',
 		'OLSKLanguageSwitcher',
 		'OLSKRootLink',
 		'OLSKUIAssets',

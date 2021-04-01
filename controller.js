@@ -8,7 +8,7 @@ exports.OLSKControllerRoutes = function () {
 			OLSKRoutePath: '/',
 			OLSKRouteMethod: 'get',
 			OLSKRouteFunction (req, res, next) {
-				return res.OLSKLayoutRender(require('path').join(__dirname, 'view'), {
+				return res.OLSKExpressLayoutRender(require('path').join(__dirname, 'view'), {
 					RCSIdiomaticConvertSourceSampleData: require('fs').readFileSync(require('path').join(__dirname, `sample.${ res.locals.OLSKSharedPageCurrentLanguage }.md`), 'utf8')
 				});
 			},
