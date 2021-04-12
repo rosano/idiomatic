@@ -13,44 +13,20 @@
     "watch": "olsk-rollup-watch"
   },
   "dependencies": {
-    "// OLDSKOOL": null,
-    "OLSKExpress": "olsk/OLSKExpress",
-
-    "// NORMALIZE CSS": null,
-    "normalize.css": "latest",
-    "OLSKDecor": "olsk/OLSKDecor",
-
-    "// IDIOMATIC": null,
+    "OLSKPithApp": "olsk/OLSKPithApp",
     "turndown": "latest",
     "turndown-plugin-gfm": "latest",
     "showdown": "latest",
     "codemirror": "rosano/CodeMirror#add-distribution",
     "pell": "latest",
-
-    "// FRONTEND SERVICE WORKER": null,
-    "OLSKServiceWorker": "olsk/OLSKServiceWorker",
-
-    "// FRONTEND LANGUAGE SWITCHER": null,
-    "OLSKLanguageSwitcher": "olsk/OLSKLanguageSwitcher",
-
-    "// FRONTEND ROOT LINK": null,
     "OLSKRootLink": "olsk/OLSKRootLink",
     "ROCORootLink": "rationalcreative/ROCORootLink",
 
     "// I sacrifice myself for the commas of others": null
   },
   "devDependencies": {
-    "// SVELTE & ROLLUP": null,
+    "OLSKPithToolchain": "olsk/OLSKPithToolchain",
     "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
-
-    "// SPEC": null,
-    "OLSKSpec": "olsk/OLSKSpec",
-
-    "// HOTFIX": null,
-    "OLSKHotfix": "olsk/OLSKHotfix",
-    
-    "// BUNDLE": null,
-    "OLSKBundle": "olsk/OLSKBundle",
 
     "// I sacrifice myself for the commas of others": null
   }
