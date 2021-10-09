@@ -60,4 +60,8 @@ let outputData
 	display: inline-block;
 	padding: 10px;
 }
+
+:global(.OLSKBanner) {
+	display: none;
+}
 </style>
