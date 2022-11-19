@@ -20,14 +20,10 @@
     "codemirror": "rosano/CodeMirror#add-distribution",
     "pell": "latest",
     "OLSKRootLink": "olsk/OLSKRootLink",
-    "ROCORootLink": "rationalcreative/ROCORootLink",
-
-    "// I sacrifice myself for the commas of others": null
+    "ROCORootLink": "rationalcreative/ROCORootLink"
   },
   "devDependencies": {
     "OLSKPithToolchain": "olsk/OLSKPithToolchain",
-    "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
-
-    "// I sacrifice myself for the commas of others": null
+    "OLSKRollupScaffold": "olsk/OLSKRollupScaffold"
   }
 }
