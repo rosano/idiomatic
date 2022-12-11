@@ -52,13 +52,13 @@ $: sourceDataDidChange(sourceData)
 	{#each sourceFormats as e, i}
 		<input type="radio" bind:group="{ selectedFormat }" value="{ e }" accesskey="{ i + 1 }" id="SourceFormat{ e }">
 		<label for="SourceFormat{ e }">
-			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatMarkdown()}
+			{#if e === RCSIdomaticLogic.RCSIdiomaticLogicFormatMarkdown()}
 				{ OLSKLocalized('RCSIdiomaticConvertToolbarButtonOptionMarkdownText') }
 			{/if}
-			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatHTML()}
+			{#if e === RCSIdomaticLogic.RCSIdiomaticLogicFormatHTML()}
 				{ OLSKLocalized('RCSIdiomaticConvertToolbarButtonOptionHTMLText') }
 			{/if}
-			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatRTF()}
+			{#if e === RCSIdomaticLogic.RCSIdiomaticLogicFormatRTF()}
 				{ OLSKLocalized('RCSIdiomaticConvertToolbarButtonOptionRTFText') }
 			{/if}
 		</label>
