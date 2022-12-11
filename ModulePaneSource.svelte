@@ -51,7 +51,17 @@ $: sourceDataDidChange(sourceData)
 <div class="PaneToolbar">
 	{#each sourceFormats as e, i}
 		<input type="radio" bind:group="{ selectedFormat }" value="{ e }" accesskey="{ i + 1 }" id="SourceFormat{ e }">
-		<label for="SourceFormat{ e }">{ OLSKLocalized(`RCSIdiomaticConvertToolbarButtonOption${ e.replace('kRCSIdiomaticLogicFormat', '') }Text`) }</label>
+		<label for="SourceFormat{ e }">
+			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatMarkdown()}
+				{ OLSKLocalized(`RCSIdiomaticConvertToolbarButtonOptionMarkdownText`) }
+			{/if}
+			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatHTML()}
+				{ OLSKLocalized(`RCSIdiomaticConvertToolbarButtonOptionHTMLText`) }
+			{/if}
+			{#if selectedFormat === RCSIdomaticLogic.RCSIdiomaticLogicFormatRTF()}
+				{ OLSKLocalized(`RCSIdiomaticConvertToolbarButtonOptionRTFText`) }
+			{/if}
+		</label>
 	{/each}
 </div>
 
