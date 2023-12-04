@@ -20,6 +20,7 @@
     "codemirror": "rosano/CodeMirror#add-distribution",
     "pell": "latest",
     "OLSKRootLink": "olsk/OLSKRootLink",
+    "OLSKDecor": "olsk/OLSKDecor",
     "ROCORootLink": "rationalcreative/ROCORootLink"
   },
   "devDependencies": {
