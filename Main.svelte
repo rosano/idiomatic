@@ -62,6 +62,6 @@ let outputData
 }
 
 :global(.OLSKBanner) {
-	display: none;
+	display: none !important;
 }
 </style>
