@@ -61,7 +61,7 @@ let outputData
 	padding: 10px;
 }
 
-:global(.OLSKBanner) {
+:global(.OLSKBanner, .OLSKBanner *) {
 	display: none !important;
 }
 </style>
